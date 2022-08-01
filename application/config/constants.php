@@ -85,25 +85,25 @@ defined('EXIT__AUTO_MIN')      OR define('EXIT__AUTO_MIN', 9); // lowest automat
 defined('EXIT__AUTO_MAX')      OR define('EXIT__AUTO_MAX', 125); // highest automatically-assigned error code
 
 /* DEFAULT PWD */
-defined('PWD') OR define('PWD', 'P@ssw0rd123');
+defined('PWD') OR define('PWD', '');
 
 /* reCaptcha */
-defined('KEY_RECAPTCHA') OR define('KEY_RECAPTCHA', '6Lc0QJYaAAAAABMLkOKQMOyz49z9tSTF_Xn6EHGe');
-defined('SITEKEY_RECAPTCHA') OR define('SITEKEY_RECAPTCHA', '6Lc0QJYaAAAAALDGbwh6gKKXEV8ZRZEQ39XHkNJ2');
-defined('URL_RECAPTCHA') OR define('URL_RECAPTCHA', 'https://www.google.com/recaptcha/api/siteverify');
+defined('KEY_RECAPTCHA') OR define('KEY_RECAPTCHA', '');
+defined('SITEKEY_RECAPTCHA') OR define('SITEKEY_RECAPTCHA', '');
+defined('URL_RECAPTCHA') OR define('URL_RECAPTCHA', '');
 
 /* API CREATE POLIS */
-defined('USER_CREATE_POLIS') OR define('USER_CREATE_POLIS', 'web-core');
-defined('PWD_CREATE_POLIS') OR define('PWD_CREATE_POLIS', 'sigma123');
-defined('URL_CREATE_POLIS_TOKEN') OR define('URL_CREATE_POLIS_TOKEN', 'https://acs.askrindo.co.id/telkomsigma-security/oauth/token');
-defined('AUTH_CREATE_POLIS_TOKEN') OR define('AUTH_CREATE_POLIS_TOKEN', 'Authorization: Basic d2ViLWNvcmU6c2lnbWExMjM=');
-defined('PARAMS_CREATE_POLIS_TOKEN') OR define('PARAMS_CREATE_POLIS_TOKEN', 'grant_type=password&username=teamsupport4&password=Ask#2020');
+defined('USER_CREATE_POLIS') OR define('USER_CREATE_POLIS', '');
+defined('PWD_CREATE_POLIS') OR define('PWD_CREATE_POLIS', '');
+defined('URL_CREATE_POLIS_TOKEN') OR define('URL_CREATE_POLIS_TOKEN', '');
+defined('AUTH_CREATE_POLIS_TOKEN') OR define('AUTH_CREATE_POLIS_TOKEN', '');
+defined('PARAMS_CREATE_POLIS_TOKEN') OR define('PARAMS_CREATE_POLIS_TOKEN', '');
 
-defined('URL_CREATE_POLIS') OR define('URL_CREATE_POLIS', 'https://acs.askrindo.co.id/askrindo-h2h/api/askred/transaction/proceed-askred-akseptasi/v.1'
+defined('URL_CREATE_POLIS') OR define('URL_CREATE_POLIS', ''
 );
 
 /* API INQUIRY POLIS */
-defined('URL_INQUIRY_POLIS_TOKEN') OR define('URL_INQUIRY_POLIS_TOKEN', 'http://10.20.10.20:8000/api/token/generate');
+defined('URL_INQUIRY_POLIS_TOKEN') OR define('URL_INQUIRY_POLIS_TOKEN', '');
 
-defined('URL_INQUIRY_POLIS') OR define('URL_INQUIRY_POLIS', 'http://10.20.10.20:8000/api/polis/inquiry');
-defined('SIGN_INQUIRY_POLIS') OR define('SIGN_INQUIRY_POLIS', 'askSignature: 2af1502cdb30437e23a677b75829db31ed66c4df7b94468ecba68b4c8ec069ef');
+defined('URL_INQUIRY_POLIS') OR define('URL_INQUIRY_POLIS', '');
+defined('SIGN_INQUIRY_POLIS') OR define('SIGN_INQUIRY_POLIS', '');
